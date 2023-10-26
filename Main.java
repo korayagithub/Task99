@@ -7,7 +7,7 @@ public class Main
            System.out.print("Usage: java SwitchDemo (1)-add, ");
            System.out.print("(2) subtract,(3) multiply, ");
            System.out.print("(4) divide <num_one> <num_two>");
-           System.out.print();
+           System.out.println();
            System.exit(1);
        }
        byte command = Byte.parseByte(args[0]);
